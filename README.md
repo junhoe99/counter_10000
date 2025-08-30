@@ -12,7 +12,7 @@
 
 
 **2. Simulation 기반 코드 debugging :**
-    -<img width="649" height="148" alt="image" src="https://github.com/user-attachments/assets/1414b2a5-8bf8-4d9a-a251-ffc760c6beab" />
+    - <img width="649" height="148" alt="image" src="https://github.com/user-attachments/assets/1414b2a5-8bf8-4d9a-a251-ffc760c6beab" />
 
 
 ## 🏗️ System Architecture

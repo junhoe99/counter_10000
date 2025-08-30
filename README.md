@@ -16,7 +16,7 @@
 
 
 ## 🏗️ System Architecture
--<img width="5804" height="2764" alt="image" src="https://github.com/user-attachments/assets/73843993-c1b5-4c0d-9ac4-3482a664b794" />
+<img width="5804" height="2764" alt="image" src="https://github.com/user-attachments/assets/73843993-c1b5-4c0d-9ac4-3482a664b794" />
 
 ### 📁 Project Structure
 ```

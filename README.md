@@ -53,7 +53,7 @@
 
 ## 🛠️ Debugging
 - 코드 디버깅 결과, digit_spliter로 입력되는 w_counter가 [3:0]로 선언되어 있어, 17이상의 값이 trunctaion되는 현상이 발생했음.
-<img width="360" height="354" alt="image" src="https://github.com/user-attachments/assets/fa34ed1c-bb66-4e72-8835-a52412ead35b" />
+    <img width="360" height="354" alt="image" src="https://github.com/user-attachments/assets/fa34ed1c-bb66-4e72-8835-a52412ead35b" />
 - w_counter를 [13:0]로 수정한 결과 , 0 ~ 9999의 값이 정상적으로 counting됨을 확인.
 
 ---

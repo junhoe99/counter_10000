@@ -1,0 +1,27 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'fnd_com' [D:/JH/Projects/counter_10000_git/counter_10000_git.srcs/sim_1/imports/new/tb.v:32]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'fnd_data' [D:/JH/Projects/counter_10000_git/counter_10000_git.srcs/sim_1/imports/new/tb.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.counter_4
+Compiling module xil_defaultlib.decoder_2x4
+Compiling module xil_defaultlib.digit_spliter
+Compiling module xil_defaultlib.mux_4x1
+Compiling module xil_defaultlib.bcd_decoder
+Compiling module xil_defaultlib.fnd_controller
+Compiling module xil_defaultlib.tick_gen_10hz
+Compiling module xil_defaultlib.counter_10000
+Compiling module xil_defaultlib.datapath_10000
+Compiling module xil_defaultlib.counter_10000_top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

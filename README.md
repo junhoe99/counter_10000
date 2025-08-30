@@ -36,9 +36,9 @@
 
 
 ## 🚀 Key Features
-- **Counting Functionality:**: 0부터 9999까지의 14비트 카운터를 10Hz 주기로 증가시키며, 리셋 버튼으로 초기화 가능합니다.
-- **Display Functionality:**: 0부터 9999까지의 14비트 카운터를 10Hz 주기로 증가시키며, 리셋 버튼으로 초기화 가능합니다.
-- **Timing Control:**: 입력 클럭을 분주하여 10Hz 카운팅 틱과 1kHz 디스플레이 스캔 신호를 생성합니다.
+- **Counting Functionality:**: 0부터 9999까지의 14비트 카운터를 10Hz 주기로 증가시키며, 리셋 버튼으로 초기화 가능.
+- **Display Functionality:**: 0부터 9999까지의 14비트 카운터를 10Hz 주기로 증가시키며, 리셋 버튼으로 초기화 가능.
+- **Timing Control:**: 입력 클럭을 분주하여 10Hz 카운팅 틱과 1kHz 디스플레이 스캔 신호를 생성.
 
 
 ## 📋 Prerequisites
@@ -48,11 +48,11 @@
 
 ## 🚨 Troubleshooting
 - Run#0
-   - digit_1은 정상적으로 0 ~ 9까지 증가
-   - digit_10의 값이 0 ~ 1 까지만 증가하는 현상 발생  
+   - digit_1은 정상적으로 0 ~ 9까지 증가.
+   - digit_10의 값이 0 ~ 1 까지만 증가하는 현상 발생.  
 
 ## 🛠️ Debugging
-- 코드 디버깅 결과, digit_spliter로 입력되는 w_counter가 [3:0]로 선언되어 있어, 17이상의 값이 trunctaion되는 현상이 발생했음
+- 코드 디버깅 결과, digit_spliter로 입력되는 w_counter가 [3:0]로 선언되어 있어, 17이상의 값이 trunctaion되는 현상이 발생했음.
   <img width="360" height="354" alt="image" src="https://github.com/user-attachments/assets/fa34ed1c-bb66-4e72-8835-a52412ead35b" />
 - w_counter를 [13:0]로 수정한 결과 , 0 ~ 9999의 값이 정상적으로 counting됨을 확인.
 

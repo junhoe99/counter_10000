@@ -1,0 +1,19 @@
+# ===== Vivado 생성물·로그·스크립트 제외 =====
+*.tcl     linguist-detectable=false
+*.xdc     linguist-detectable=false
+*.bat     linguist-detectable=false
+*.cmd     linguist-detectable=false
+*.ps1     linguist-detectable=false
+*.pas     linguist-detectable=false
+.runs/**  linguist-generated
+.gen/**   linguist-generated
+.cache/** linguist-generated
+.hw/**    linguist-generated
+.ip/**    linguist-generated
+.sim/**   linguist-generated
+.bd/**    linguist-generated
+.logs/**  linguist-generated
+
+# ===== 언어 매핑: SystemVerilog 확장자 통합 =====
+*.sv      linguist-language=SystemVerilog
+*.svh     linguist-language=SystemVerilog

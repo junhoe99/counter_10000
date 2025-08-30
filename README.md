@@ -19,7 +19,7 @@
 <img width="5804" height="2764" alt="image" src="https://github.com/user-attachments/assets/73843993-c1b5-4c0d-9ac4-3482a664b794" />
 
 ### 📁 Project Structure
-
+```
 **counter_10000_top/**           # 최상위 모듈, fnd_controller & datapath_10000모듈을 mapping.
 ├── 📁 fnd_controller/      #FND 디스플레이 제어 모듈. 14비트 카운터 입력을 받아 4자리 숫자로 분리하고, mux 및 decoder를 활용해 FND에 표시.
 │   ├── clk_div.v               # System clk(100MHz)를 분주하여 1kHz 펄스를 생성. FND의 디지트 스캔 속도를 제어
@@ -32,7 +32,7 @@
 ├── 📁 datapath_10000/             # fnd_controller로 전달할 data(0 ~ 9999) 생성.
 │   ├── tick_gen_10hz.v              # Sys lk을 받아 10Hz 주기의 틱 신호를 생성. 이는 카운터의 속도를 제어하는 데 사용.
 │   └── counter_10000.v              #  0부터 9999까지 카운트하는 14비트 카운터. 10Hz 틱 신호로 증가.
-
+```
 
 
 ## 🚀 Key Features

@@ -13,7 +13,7 @@
 .sim/**   linguist-generated
 .bd/**    linguist-generated
 .logs/**  linguist-generated
-*.pas      linguist-detectable=false
+*.pas      linguist-generated
 *.pp       linguist-detectable=false      # Pascal 다른 확장자도 제외
 *.inc      linguist-detectable=false      # 일부 Pascal include 파일
 *.lpr      linguist-detectable=false      # Lazarus Pascal 프로젝트 파일
